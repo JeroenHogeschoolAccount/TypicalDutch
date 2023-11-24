@@ -1,0 +1,269 @@
+/* hoofdpagina en navigatiebar */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    float: left;
+    position: fixed;
+}
+
+nav {
+    list-style: none;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li img.test {
+    max-height: 100px;
+    width: auto;
+}
+
+ul li {
+    list-style: disc;
+}
+
+ul li a {
+    font-family: avenir;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main ul.blok {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    background-color: white;
+    border: solid 1px red;
+    font-family: avenir;
+}
+
+main ul.blok img {
+    width: 70vw;
+    height: 223px;
+}
+
+main ul.blok h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* warm of koud pagina */
+
+main section.warmblok {
+    height: 284px;
+    width: 100vw;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border: solid 1px black;
+    font-family: avenir;
+    line-height: 12;
+}
+
+main section.koudblok {
+    height: 284px;
+    width: 100vw;
+    text-align: center;
+    background-color: #0080ff;
+    color: white;
+    border: solid 1px black;
+    font-family: avenir;
+    line-height: 12;
+}
+
+
+/* keuze welk recept pagina */
+
+h1 {
+    color: white;
+    font-family: avenir;
+    text-align: center;
+    background-color: red;
+    font-size: 30px;
+}
+
+main h2.balkje {
+    margin-top: 1em;
+    background: black;
+    font-family: avenir;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 2.1;
+    margin-top: 1.55em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+
+/* Recept en info product */
+
+main img.plaatjepepernoot {
+    float: left;
+    margin: 0.9em;
+    height: 67px;
+    width: 100px;
+}
+
+main img.kroketplaatje {
+    float: left;
+    margin: 0.9em;
+    height: 50px;
+    width: 100px;
+}
+
+main img.plaatjehutspot {
+    float: left;
+    margin: 0.9em;
+    height: 72px;
+    width: 85px;
+}
+
+main img.plaatjepoffertje {
+    float: left;
+    margin: 0.9em;
+    height: 70px;
+    width: 90px;
+}
+
+main img.plaatjeoliebol {
+    float: left;
+    margin: 0.9em;
+    height: 72px;
+    width: 85px;
+}
+
+main article h1.koprechtsboven {
+    text-align: center;
+    font-size: 30px;
+    font-family: avenir;
+    background-color: red;
+    margin-left: 5.3em;
+    color: white;
+}
+
+main article.article1 {
+    text-align: left;
+    font-family: avenir;
+}
+
+main article h2.ingredientenkop {
+    margin-top: 2.5em;
+    font-family: avenir;
+    margin-left: 0.7em;
+}
+
+main article ul.ingredientenopsomming {
+    font-family: avenir;
+    margin-left: 2.2em;
+}
+
+main article h2.bereidingswijzekop {
+    font-family: avenir;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+}
+
+main article p.bereidinguitleg {
+    font-family: avenir;
+    margin-left: 1.25em;
+    margin-right: 1.5em;
+}
+
+table,
+th,
+td {
+    width: 324px;
+    border: 1px solid;
+    background-color: black;
+    border-color: red;
+    color: white;
+    margin-left: 1.2em;
+    margin-top: 0.5em;
+}
+
+main article h2.informatiekop {
+    margin-top: 2.5em;
+    font-family: avenir;
+    padding-left: 0.7em;
+}
+
+main article p.informatieeten {
+    font-family: avenir;
+    margin-left: 1.1em;
+    padding-right: 1.5em;
+}
+
+
+/* kindoffood keuzelijst warm en koud */
+
+main h1.kindoffoodkop {
+    color: white;
+    font-family: avenir;
+    text-align: center;
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+}
+
+article.blok3 {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: avenir;
+    background-color: black;
+}
+
+/* bronnen en footer */
+
+main article p.bron1 {
+    margin-left: 1.75em;
+    margin-top: 1em;
+    font-style: italic;
+    font-size: 10px;
+}
+
+footer p {
+    background-color: red;
+    color: white;
+    font-family: avenir;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: static;
+    text-align: center;
+    font-size: 10px;
+    padding: 0.7em;
+}
